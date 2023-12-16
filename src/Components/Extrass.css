@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic');
+
+.Newspaper{
+    height: 115vh;
+    background-color: #f9f7f1;
+    font-family: 'Driod Serif';
+    border-radius: 0.5%;
+    color: #2f2f2f;
+    overflow-y: auto;
+
+}
+.header{
+    font-family: 'Playfair Display',serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    color: black;
+    text-align: center;
+}
+
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.25em;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 1% 0 2%;
+    text-align:inherit;
+}
+
+.colo{
+    font-size: 14px;
+    line-height: 25px;
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    transition: all 7.5;
+    margin-left: calc(2%);
+
+}
+.colo > .para , block {
+    color: #2f2f2f;
+    margin-left: 30px;
+
+}
+.para {
+    font-family: 'Playfair Display', serif;
+    color: #2f2f2f;
+    overflow-y: auto;
+    word-break: break-all; /* This will allow long words to break */
+}
+block{
+    font-size: 18px;
+    color: #2f2f2f;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.colo + .colo{
+    border-left: 1px solid #2f2f2f;
+}
+.colo .headline{
+    text-align: center;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    color: #2f2f2f;
+
+}
+

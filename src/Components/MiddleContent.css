@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+
+.Middle-Wear {
+  display: flex;
+  flex-direction: column; /* Change to column on small screens */
+  gap: 20px;
+  box-shadow: 10px 10px greenyellow;
+}
+
+.Branda {
+  max-width: 100%;
+  min-width: calc(20em); /* Take full width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.Goofy {
+  line-height: 1.350em;
+  display: flex;
+  flex-direction: column;
+  font-size: 19px; 
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Poppins', sans-serif;/* Use the default font size */
+}
+
+@media (min-width: 768px) {
+
+  /* Apply these styles on screens wider than 768px */
+  .Middle-Wear {
+    flex-direction: row;
+    font-size: calc(2em); /* Revert to row layout on larger screens */
+  }
+}

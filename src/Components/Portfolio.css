@@ -1,0 +1,20 @@
+* {
+    color : white
+}
+.Headings{
+    font-size: calc(3.5em);
+    
+}
+
+.Show-Case{
+    overflow-x: auto;
+    margin: 12px,12px;
+    scroll-snap-type: inherit;
+    gap: 5px;
+    display: flex;
+    flex-grow: inherit;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}

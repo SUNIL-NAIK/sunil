@@ -1,0 +1,17 @@
+.Gill{
+    position: relative;
+    flex-grow: inherit;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Gill h1 {
+    font-size: calc(5em);
+}
+.Gill h2{
+    font-size: calc(2em);
+}
+.Clomk{
+    font-size: calc(1.8em);
+}

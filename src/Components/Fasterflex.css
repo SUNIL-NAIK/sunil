@@ -1,0 +1,33 @@
+.Items{
+    display :block;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: calc(100%);
+    background-color: black;
+    box-shadow:  10px 10px green;
+    align-items: center;
+    letter-spacing: calc(0.25em);
+}
+
+.Social{
+    display: flex;
+    gap: calc(20px);
+    flex-direction: row; 
+    flex-wrap:wrap;  
+}
+.Image-1{
+    height: 52px;
+    flex-grow: 1;
+    object-fit: scale-down; max-width: 100%
+}
+.Hero{
+    margin-left: calc(8px);
+    height: calc(100%);
+}
+.clear{
+    clear: both;
+    margin-top: calc(8vh);
+}
